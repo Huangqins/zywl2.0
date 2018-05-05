@@ -1,12 +1,15 @@
 <template>
   <div class="dashboard-container">
     <div class="dashboard-text">name</div>
+    <line-chart></line-chart>
   </div>
 </template>
 
 <script>
+import lineChart from '../layout/components/Homepage/lineChart'
 export default {
   name: 'dashboard',
+  components: { lineChart }
 }
 </script>
 
